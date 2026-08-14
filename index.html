@@ -37,7 +37,6 @@
     <section class="mx-auto w-full max-w-6xl px-5 py-20">
       <h2 id="logo-title" class="sr-only">Khách hàng của chúng tôi</h2>
       <ul class="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-        <!-- Thêm các thẻ li chứa logo SVG của bạn ở đây -->
         <li class="text-gray-400 hover:text-gray-500">Google</li>
         <li class="text-gray-400 hover:text-gray-500">Microsoft</li>
         <li class="text-gray-400 hover:text-gray-500">Spotify</li>
@@ -48,21 +47,17 @@
     </section>
 
     <!-- 4. Tính năng -->
-    <section aria-labelledby="features-title">
-      <h2 id="features-title">Work with tools you already use</h2>
-      <p>Deliver great service experiences fast-without the complexity of traditional ITSM solutions.</p>
-      <ul>
+    <section aria-labelledby="features-title" class="mx-auto w-full max-w-6xl px-5 py-24">
+      <h2 id="features-title" class="font-display text-3xl font-bold text-ink">Work with tools you already use</h2>
+      
+      <ul class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <li>
-          <h3>Continuous integration and deployment</h3>
-          <p>Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
-        </li>
-        <li>
-          <h3>Development workflow</h3>
-          <p>Deliver great service experiences fast without the complexity of traditional ITSM solutions.</p>
-        </li>
-        <li>
-          <h3>Knowledge management</h3>
-          <p>Deliver great service experiences fast without the complexity of traditional ITSM solutions.</p>
+          <span class="grid h-11 w-11 place-items-center rounded-lg bg-brand-50 text-brand-600 mb-4">
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+            </svg>
+          </span>
+          <h3 class="font-display text-xl font-bold text-ink mb-2">Continuous integration</h3>
+          <p class="text-muted">Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
         </li>
       </ul>
     </section>
