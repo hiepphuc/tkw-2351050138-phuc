@@ -12,19 +12,15 @@
   --radius-card: 0.875rem;
 }
 
-/* KHAI BÁO CÁC COMPONENT DÙNG CHUNG */
 @layer components {
-  /* Khai báo container dùng chung một lần */
   .section { 
     @apply mx-auto w-full max-w-6xl px-5 py-20 lg:py-28; 
   }
 
-  /* Gom nút vào component vì sẽ dùng lại rất nhiều */
   .btn { 
     @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors; 
   }
   
-  /* Lưu ý: Tránh bẫy Tailwind v4, không dùng @apply btn ở đây */
   .btn-primary { 
     @apply bg-brand-600 text-white hover:bg-brand-700; 
   }
