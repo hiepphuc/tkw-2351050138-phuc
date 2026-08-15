@@ -2,13 +2,20 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-brand-50: #F3E8FF;
   --color-brand-600: #7E3AF2;
+  --color-brand-700: #6C2BD9;
+  
+  --color-accent-500: #10B981;
+
   --color-ink: #111827;
   --color-muted: #6B7280;
   --color-surface: #FFFFFF;
   --color-line: #E5E7EB;
+  
   --font-display: "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
+  
   --radius-card: 0.875rem;
 }
 
@@ -22,6 +29,6 @@
   }
   
   .btn-primary { 
-    @apply bg-brand-600 text-white hover:bg-brand-600; 
+    @apply bg-brand-600 text-white hover:bg-brand-700; 
   }
 }
