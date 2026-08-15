@@ -5,17 +5,21 @@
   --color-brand-50: #F3E8FF;
   --color-brand-600: #7E3AF2;
   --color-brand-700: #6C2BD9;
-  
-  --color-accent-500: #10B981;
+
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #0e1c19; 
+  --color-surface-dark-alt: #162b27;
 
   --color-ink: #111827;
+  --color-ink-invert: #eaf2ee;
+
   --color-muted: #6B7280;
-  --color-surface: #FFFFFF;
-  --color-line: #E5E7EB;
   
+  --color-line: #E5E7EB;
+  --color-line-invert: #24403a;
+
   --font-display: "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
-  
   --radius-card: 0.875rem;
 }
 
