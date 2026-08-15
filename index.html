@@ -285,29 +285,77 @@
     </section>
 
     <!-- 5. Số liệu -->
-    <section aria-labelledby="stats-title" class="mx-auto w-full max-w-6xl px-5 py-24 text-center">
-      <div class="mx-auto max-w-screen-sm">
-        <h2 id="stats-title" class="font-display text-3xl font-extrabold">Trusted Worldwide</h2>
-        <p class="mt-4 text-muted text-lg">Trusted by over 600 million users and 10,000 teams</p>
+    <section aria-labelledby="stats-title" class="section bg-gray-50 dark:bg-surface-dark/50">
+      <div class="grid items-start gap-14 lg:grid-cols-2 lg:gap-16">
+        
+        <div class="flex flex-col gap-4">
+          <span class="font-medium text-brand-600 dark:text-brand-400">Trusted Worldwide</span>
+          <h2 id="stats-title" class="font-display text-3xl font-extrabold text-ink dark:text-ink-invert lg:text-4xl">
+            Trusted by over 600 million users and 10,000 teams
+          </h2>
+          <p class="text-lg text-muted">
+            Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.
+          </p>
+          
+          <hr class="my-4 border-line dark:border-line-invert" />
+          
+          <div class="flex flex-col gap-4">
+            <a href="#" class="inline-flex items-center gap-2 font-medium text-brand-600 hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300 transition-colors">
+              Explore Legality Guide
+              <!-- Icon mũi tên -->
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+            <a href="#" class="inline-flex items-center gap-2 font-medium text-brand-600 hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300 transition-colors">
+              Visit the Trust Center
+              <!-- Icon mũi tên -->
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <dl class="grid gap-10 sm:grid-cols-2">
+          
+          <div class="flex flex-col gap-2">
+            <div class="mb-2 text-brand-600 dark:text-brand-400">
+              <!-- CHÈN SVG ICON MÁY CHỦ-->
+              <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"></svg>
+            </div>
+            <dt class="font-display text-2xl font-bold text-ink dark:text-ink-invert">99.99% uptime</dt>
+            <dd class="text-muted">for Flowbite, with zero maintenance downtime</dd>
+          </div>
+          
+          <!-- Item 2 -->
+          <div class="flex flex-col gap-2">
+            <div class="mb-2 text-brand-600 dark:text-brand-400">
+              <!-- CHÈN SVG ICON NGƯỜI DÙNG -->
+              <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"></svg>
+            </div>
+            <dt class="font-display text-2xl font-bold text-ink dark:text-ink-invert">600M+ Users</dt>
+            <dd class="text-muted">trusted by over 600 million users around the world</dd>
+          </div>
+          
+          <!-- Item 3 -->
+          <div class="flex flex-col gap-2">
+            <div class="mb-2 text-brand-600 dark:text-brand-400">
+              <!-- CHÈN SVG ICON GIỎ HÀNG  -->
+              <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"></svg>
+            </div>
+            <dt class="font-display text-2xl font-bold text-ink dark:text-ink-invert">Millions</dt>
+            <dd class="text-muted">of transactions per day</dd>
+          </div>
+          
+          <!-- Item 4 -->
+          <div class="flex flex-col gap-2">
+            <div class="mb-2 text-brand-600 dark:text-brand-400">
+              <!-- CHÈN SVG ICON QUẢ ĐỊA CẦU -->
+              <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"></svg>
+            </div>
+            <dt class="font-display text-2xl font-bold text-ink dark:text-ink-invert">100+ countries</dt>
+            <dd class="text-muted">have used Flowbite to create functional websites</dd>
+          </div>
+
+        </dl>
       </div>
-      <dl class="mt-14 grid grid-cols-2 gap-8 divide-x divide-line lg:grid-cols-4">
-        <div class="flex flex-col text-center">
-          <dt class="order-2 mt-2 text-muted">uptime</dt>
-          <dd class="font-display text-4xl font-extrabold text-brand-600">99.99%</dd>
-        </div>
-        <div class="flex flex-col text-center">
-          <dt class="order-2 mt-2 text-muted">Users</dt>
-          <dd class="font-display text-4xl font-extrabold text-brand-600">600M+</dd>
-        </div>
-        <div class="flex flex-col text-center">
-          <dt class="order-2 mt-2 text-muted">countries</dt>
-          <dd class="font-display text-4xl font-extrabold text-brand-600">100+</dd>
-        </div>
-        <div class="flex flex-col text-center">
-          <dt class="order-2 mt-2 text-muted">Millions</dt>
-          <dd class="font-display text-4xl font-extrabold text-brand-600">5+</dd>
-        </div>
-      </dl>
     </section>
 
     <!-- 6. Cảm nhận -->
@@ -488,7 +536,6 @@
       </nav>
     </div>
 
-    <!-- Đường kẻ ngang phân cách -->
     <hr class="my-8 border-line">
 
     <div class="flex flex-col items-center justify-between gap-4 sm:flex-row">
